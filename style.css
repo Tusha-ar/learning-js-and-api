@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(rgb(47, 66, 73),rgb(48,62,143));
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.location,
+.temprature{
+height: 30vh;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.temprature{
+    flex-direction: column;
+}
+
+.temp-display{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.temp-display span{
+    margin: 10px;
+    font-size: 25px;
+}
+.temp-description{
+    font
+}
